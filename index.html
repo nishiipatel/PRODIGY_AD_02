@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <title>To-do list</title>
+</head>
+
+<body>
+
+  <main class="app">
+    <div class="main-header">
+      <h1>TO DO LIST</h1>
+      <h1><i class="fa-solid fa-list"></i></h1>
+    </div>
+    <br>
+    <div class="input-container">
+        <input type="text" id="item" placeholder="Enter a task"><button id="enter"><i class="fa-solid fa-plus"></i></button>
+    </div>
+    <br>
+    <div class="tasks-header">
+      <h2 id="to-do-items">Tasks</h2>
+    </div>
+    <br>
+    <div class="to-do-list"></div>
+    <br>
+    <br>
+    <div class="completed-header">
+      <h2 id="completed-items">Completed Task</h2>
+      <span class="deleteItems" id="deleteAll">&#128465;</span>
+    </div>
+    <br>
+    <div class="complete-list"></div>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
